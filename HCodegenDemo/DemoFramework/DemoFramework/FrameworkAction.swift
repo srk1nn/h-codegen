@@ -8,7 +8,11 @@
 import Foundation
 import MapKit
 
-// Framework action below tells `h-codegen` to import framework (MapKit) in generated file
+// This example shows how works framework action
+//
+// Since `h-codegen` doesn't know about Objective-C objects, you should use header action, to import (Objects.h) in generated file
+//
+// See HCFrameworkAction.h
 
 // h-codegen:framework:MapKit
 

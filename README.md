@@ -44,7 +44,7 @@ $ cd ...
 $ swift build -c release
  ```  
    
-**WARNING:** Since `h-codegen` update Xcode project, itt does not recommend to use it as a Build Phase  
+**WARNING:** Since `h-codegen` updates Xcode project, it does not recommend to use it as a Build Phase  
 
 CLI contains 2 subcommands: `codegen` (default) and `compare`.  
 

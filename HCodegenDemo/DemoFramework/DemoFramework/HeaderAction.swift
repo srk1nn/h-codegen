@@ -7,7 +7,11 @@
 
 import Foundation
 
-// Header action below tells `h-codegen` to import header (Objects.h) in generated file
+// This example shows how works header action
+//
+// Since `h-codegen` doesn't know about Objective-C objects, you should use header action, to import (Objects.h) in generated file
+//
+// See HCHeaderAction.h
 
 // h-codegen:header:Objects.h
 

@@ -7,18 +7,22 @@
 
 import Foundation
 
+// This example shows how `h-codegen` generates Objective-C headers for internal Swift objects
+//
+// See HCInternalObjects.h
+
 @objc(HCInternalProtocol)
 protocol InternalProtocol {
-    func internalFunc()
+    func protocolInternalMethod()
 }
 
 @objc(HCInternalClass)
 final class InternalClass: NSObject {
-    static func classMethod() { }
+    @objc static func classInternalMethod() { }
 }
 
 extension InternalClass: InternalProtocol {
-    func internalFunc() { }
+    func protocolInternalMethod() { }
 
     @objc(HCInternalNestedEnum)
     enum InternalNestedEnum: Int {

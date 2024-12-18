@@ -4,10 +4,11 @@
 #import "InteroperabilityMacro.h"
 
 @protocol HCInternalProtocol
-- (void)internalFunc;
+- (void)protocolInternalMethod;
 @end
 
 @interface HCInternalClass : NSObject
++ (void)classInternalMethod;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -17,5 +18,5 @@ typedef SWIFT_ENUM_NAMED(NSInteger, HCInternalNestedEnum, "HCInternalNestedEnum"
 };
 
 @interface HCInternalClass (SWIFT_EXTENSION(DemoFramework)) <HCInternalProtocol>
-- (void)internalFunc;
+- (void)protocolInternalMethod;
 @end

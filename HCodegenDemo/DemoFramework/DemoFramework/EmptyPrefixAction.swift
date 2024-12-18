@@ -7,7 +7,11 @@
 
 import Foundation
 
-// Prefix action below tells `h-codegen` to remove any prefix
+// This example shows how works prefix action
+//
+// Prefix action below tells `h-codegen` to remove any file prefix
+//
+// See EmptyPrefixAction.h
 
 // h-codegen:prefix:
 

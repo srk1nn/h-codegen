@@ -15,19 +15,21 @@
 		4F07EC832D12CA7F000C69D7 /* FrameworkAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07EC822D12CA7F000C69D7 /* FrameworkAction.swift */; };
 		4F07EC852D12CACF000C69D7 /* PrefixAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07EC842D12CACF000C69D7 /* PrefixAction.swift */; };
 		4F07EC872D12CC07000C69D7 /* EmptyPrefixAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07EC862D12CC07000C69D7 /* EmptyPrefixAction.swift */; };
-		4F07EC892D12CD53000C69D7 /* InternalWithPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07EC882D12CD53000C69D7 /* InternalWithPublic.swift */; };
+		4F07EC892D12CD53000C69D7 /* PublicDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07EC882D12CD53000C69D7 /* PublicDependency.swift */; };
+		4F07EC8D2D12F81B000C69D7 /* InternalDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07EC8C2D12F81B000C69D7 /* InternalDependency.swift */; };
 		4F682A4A2CDE069900566FCB /* InteroperabilityMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F682A492CDE069900566FCB /* InteroperabilityMacro.h */; };
 		4FC080472CDA74D9007B8928 /* DemoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC080462CDA74D9007B8928 /* DemoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA215646825D58581E0078E8 /* HCInternalObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA4BDCB5004F13D45A4F4A4 /* HCInternalObjects.h */; };
 		B2CBA0674E5B2360D225FC08 /* HCFrameworkAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B29E2F0C804869D32BDE9FF /* HCFrameworkAction.h */; };
 		B97AAA496576018B3FC2B151 /* HCHeaderAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BC426FC0E190F5E70CCAB6 /* HCHeaderAction.h */; };
-		D0B5A02B8B95A9E9AC065427 /* HCInternalWithPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE12C5F947CFA3AE34CFD0C /* HCInternalWithPublic.h */; };
 		D558BE1284A8F29A901253C3 /* EmptyPrefixAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4B0550C7CBA9BF1C5EF6B7 /* EmptyPrefixAction.h */; };
+		EA0B05DAC0148481FBB40B8A /* HCInternalDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 095415D39DEB93F3A01E4FFC /* HCInternalDependency.h */; };
+		F528160104A497A172A50F28 /* HCPublicDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE60265E2F57D8AB942D2F0 /* HCPublicDependency.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		095415D39DEB93F3A01E4FFC /* HCInternalDependency.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = HCInternalDependency.h; sourceTree = "<group>"; };
 		1B29E2F0C804869D32BDE9FF /* HCFrameworkAction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = HCFrameworkAction.h; sourceTree = "<group>"; };
-		2DE12C5F947CFA3AE34CFD0C /* HCInternalWithPublic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = HCInternalWithPublic.h; sourceTree = "<group>"; };
 		2FA4BDCB5004F13D45A4F4A4 /* HCInternalObjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = HCInternalObjects.h; sourceTree = "<group>"; };
 		30BC426FC0E190F5E70CCAB6 /* HCHeaderAction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = HCHeaderAction.h; sourceTree = "<group>"; };
 		4F07EC792D12C875000C69D7 /* InternalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalObjects.swift; sourceTree = "<group>"; };
@@ -37,11 +39,13 @@
 		4F07EC822D12CA7F000C69D7 /* FrameworkAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkAction.swift; sourceTree = "<group>"; };
 		4F07EC842D12CACF000C69D7 /* PrefixAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixAction.swift; sourceTree = "<group>"; };
 		4F07EC862D12CC07000C69D7 /* EmptyPrefixAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPrefixAction.swift; sourceTree = "<group>"; };
-		4F07EC882D12CD53000C69D7 /* InternalWithPublic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalWithPublic.swift; sourceTree = "<group>"; };
+		4F07EC882D12CD53000C69D7 /* PublicDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicDependency.swift; sourceTree = "<group>"; };
+		4F07EC8C2D12F81B000C69D7 /* InternalDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalDependency.swift; sourceTree = "<group>"; };
 		4F682A492CDE069900566FCB /* InteroperabilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteroperabilityMacro.h; sourceTree = "<group>"; };
 		4FC080432CDA74D9007B8928 /* DemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC080462CDA74D9007B8928 /* DemoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFramework.h; sourceTree = "<group>"; };
 		7CCE0360BCF14F46D3A08D5D /* ExtPrefixAction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = ExtPrefixAction.h; sourceTree = "<group>"; };
+		8CE60265E2F57D8AB942D2F0 /* HCPublicDependency.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = HCPublicDependency.h; sourceTree = "<group>"; };
 		9A4B0550C7CBA9BF1C5EF6B7 /* EmptyPrefixAction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = EmptyPrefixAction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,13 +91,14 @@
 			children = (
 				4F07EC812D12C969000C69D7 /* ObjectiveC */,
 				4F07EC792D12C875000C69D7 /* InternalObjects.swift */,
+				4F07EC8C2D12F81B000C69D7 /* InternalDependency.swift */,
 				4FC080462CDA74D9007B8928 /* DemoFramework.h */,
 				4F682A492CDE069900566FCB /* InteroperabilityMacro.h */,
 				4F07EC7B2D12C946000C69D7 /* HeaderAction.swift */,
 				4F07EC822D12CA7F000C69D7 /* FrameworkAction.swift */,
 				4F07EC842D12CACF000C69D7 /* PrefixAction.swift */,
 				4F07EC862D12CC07000C69D7 /* EmptyPrefixAction.swift */,
-				4F07EC882D12CD53000C69D7 /* InternalWithPublic.swift */,
+				4F07EC882D12CD53000C69D7 /* PublicDependency.swift */,
 			);
 			path = DemoFramework;
 			sourceTree = "<group>";
@@ -105,8 +110,9 @@
 				7CCE0360BCF14F46D3A08D5D /* ExtPrefixAction.h */,
 				1B29E2F0C804869D32BDE9FF /* HCFrameworkAction.h */,
 				30BC426FC0E190F5E70CCAB6 /* HCHeaderAction.h */,
+				095415D39DEB93F3A01E4FFC /* HCInternalDependency.h */,
 				2FA4BDCB5004F13D45A4F4A4 /* HCInternalObjects.h */,
-				2DE12C5F947CFA3AE34CFD0C /* HCInternalWithPublic.h */,
+				8CE60265E2F57D8AB942D2F0 /* HCPublicDependency.h */,
 			);
 			name = "h-codegen-result";
 			path = "/Users/igor.sorokin/Desktop/h-codegen/HCodegenDemo/DemoFramework/h-codegen-result";
@@ -124,10 +130,11 @@
 				4F682A4A2CDE069900566FCB /* InteroperabilityMacro.h in Headers */,
 				0512647305525ADF576D298B /* ExtPrefixAction.h in Headers */,
 				AA215646825D58581E0078E8 /* HCInternalObjects.h in Headers */,
-				D0B5A02B8B95A9E9AC065427 /* HCInternalWithPublic.h in Headers */,
 				B97AAA496576018B3FC2B151 /* HCHeaderAction.h in Headers */,
 				D558BE1284A8F29A901253C3 /* EmptyPrefixAction.h in Headers */,
 				B2CBA0674E5B2360D225FC08 /* HCFrameworkAction.h in Headers */,
+				F528160104A497A172A50F28 /* HCPublicDependency.h in Headers */,
+				EA0B05DAC0148481FBB40B8A /* HCInternalDependency.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,10 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F07EC892D12CD53000C69D7 /* InternalWithPublic.swift in Sources */,
+				4F07EC892D12CD53000C69D7 /* PublicDependency.swift in Sources */,
 				4F07EC832D12CA7F000C69D7 /* FrameworkAction.swift in Sources */,
 				4F07EC7F2D12C961000C69D7 /* Objects.m in Sources */,
 				4F07EC7C2D12C946000C69D7 /* HeaderAction.swift in Sources */,
+				4F07EC8D2D12F81B000C69D7 /* InternalDependency.swift in Sources */,
 				4F07EC872D12CC07000C69D7 /* EmptyPrefixAction.swift in Sources */,
 				4F07EC852D12CACF000C69D7 /* PrefixAction.swift in Sources */,
 				4F07EC7A2D12C875000C69D7 /* InternalObjects.swift in Sources */,
@@ -365,7 +373,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +407,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

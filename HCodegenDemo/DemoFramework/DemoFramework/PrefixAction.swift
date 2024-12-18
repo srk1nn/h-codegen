@@ -7,7 +7,11 @@
 
 import Foundation
 
-// Prefix action below tells `h-codegen` to override prefix from CLI to `Ext` in generated file
+// This example shows how works prefix action
+//
+// Prefix action below tells `h-codegen` to override prefix from CLI to `Ext` for generated file
+//
+// See ExtPrefixAction.h
 
 // h-codegen:prefix:Ext
 
