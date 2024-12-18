@@ -27,9 +27,6 @@ let package = Package(
                 .product(name: "XcodeProj", package: "XcodeProj"),
                 .product(name: "SwiftCLI", package: "SwiftCLI"),
                 .product(name: "PathKit", package: "PathKit")
-            ],
-            resources: [
-                .copy("Resources/emit_objc_header.sh")
             ]
         ),
     ]

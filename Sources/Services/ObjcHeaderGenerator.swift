@@ -15,7 +15,6 @@ import PathKit
 /// A fake main function is inserted into one of the Swift files.
 /// This makes the compiler think that he works with application code and generates the -Swift.h file with internal objects.
 struct ObjcHeaderGenerator {
-    private let scriptPath = Resources.emitObjcHeaderScript
 
     func generate(
         projectType: ProjectType,
@@ -52,7 +51,7 @@ struct ObjcHeaderGenerator {
         let task = Task(
             executable: ScriptOptions.executable,
             arguments: [
-                scriptPath,
+                ScriptOptions.bashCommand, Resources.emitObjcHeaderScript, "",
                 projectKey, projectPath.string,
                 ScriptOptions.scheme, scheme,
                 ScriptOptions.target, sdk,
@@ -98,7 +97,8 @@ struct ObjcHeaderGenerator {
     }
 
     private enum ScriptOptions {
-        static let executable = "/usr/bin/env"
+        static let executable = "/bin/bash"
+        static let bashCommand = "-c"
         static let workspace = "--workspace"
         static let project = "--project"
         static let scheme = "--scheme"
